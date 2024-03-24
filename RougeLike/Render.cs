@@ -4,8 +4,10 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using RogueLike.GameCore;
+using RogueLike.UIComponents;
 
-namespace RogueLike.Render
+namespace RogueLike
 {
     internal class Renderer
     {
@@ -41,7 +43,7 @@ namespace RogueLike.Render
         {
             Console.Clear();
             Console.SetCursorPosition(0, 0);
-            Console.WriteLine("Game over! :(");
+            Console.WriteLine("Рыцарь потерпел порожение. Вам не удалось спасти принцессу.");
             Environment.Exit(0);
         }
 
@@ -49,7 +51,7 @@ namespace RogueLike.Render
         {
             Console.Clear();
             Console.SetCursorPosition(0, 0);
-            Console.WriteLine("Игра завершена. Вы прошли через выход!");
+            Console.WriteLine("Рыцарь сражался до самого конца и выстоял. Он спасёт свою дочь и в королевстве наступит мир!");
             Environment.Exit(0);
         }
 

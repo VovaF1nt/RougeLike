@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RogueLike
+namespace RogueLike.UIComponents
 {
     internal class HealthBar
     {
@@ -13,14 +13,14 @@ namespace RogueLike
 
         public HealthBar(int maxHealth)
         {
-            this.MaxHealth = maxHealth;
+            MaxHealth = maxHealth;
             CurrentHealth = maxHealth;
         }
 
         public void SetHealth(int health)
         {
             CurrentHealth -= health;
-            if (CurrentHealth < 0) 
+            if (CurrentHealth < 0)
             {
                 CurrentHealth = 0;
             }

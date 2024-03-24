@@ -1,4 +1,5 @@
-﻿using RogueLike.GameMain;
+﻿using RogueLike;
+using RogueLike.GameCore;
 
 namespace Roguelike_console
 {
@@ -6,6 +7,7 @@ namespace Roguelike_console
     {
         static void Main(string[] args)
         {
+            Story story = new Story();
             Game game = new Game();
         }
     }
