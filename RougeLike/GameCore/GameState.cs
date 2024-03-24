@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RogueLike
+namespace RogueLike.GameCore
 {
-    enum Direction
+    public enum GameState
     {
-        Up = 0, Down = 1, Left = 2, Right = 3
+        Playing,
+        PlayerWon,
+        PlayerLost
     }
 }

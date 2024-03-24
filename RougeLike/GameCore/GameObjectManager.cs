@@ -4,8 +4,9 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using RogueLike.GameEntityComponents;
 
-namespace RogueLike
+namespace RogueLike.GameCore
 {
     internal class GameObjectManager
     {

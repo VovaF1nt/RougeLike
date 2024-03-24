@@ -4,8 +4,10 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using RogueLike.GameCore;
+using RogueLike.HelpUtilities;
 
-namespace RogueLike
+namespace RogueLike.GameEntityComponents
 {
     internal class Entity : GameObject
     {
@@ -26,7 +28,7 @@ namespace RogueLike
             }
         }
 
-        public Entity(GameObjectManager gameObjectManager, Vector2 position, 
+        public Entity(GameObjectManager gameObjectManager, Vector2 position,
             bool isSolid, int hp, char icon) : base(position, gameObjectManager, isSolid, icon)
         {
             this.hp = hp;

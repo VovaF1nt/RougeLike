@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RogueLike.GameEntityComponents;
 
-namespace RogueLike
+namespace RogueLike.Input
 {
     internal class InputHandler
     {
